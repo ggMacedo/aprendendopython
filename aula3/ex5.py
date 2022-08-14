@@ -1,0 +1,12 @@
+ganha_hora= float(input("Quanto você ganha por hora: "));
+horas_trab= int(input("Quantas horas você trabalhou no mês: "));
+opA=ganha_hora * horas_trab;
+opB= opA * (11/100);
+opC= opA * (8/100);
+opD= opA * (5/100);
+opE= opA-opB-opC-opD;
+print("+ Salário Bruto: R$", opA);
+print("- IR(11%): R$", opB);
+print("- INSS(8%): R$", opC);
+print("- Sindicato(5%): R$ ", opD);
+print("= Salário Liquído: R$ ", opE);

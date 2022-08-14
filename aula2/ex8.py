@@ -1,0 +1,13 @@
+a= int(input("Digite o primeiro número: "));
+b= int(input("Digite o segundo número: "));
+c= int(input("Digite o terceiro número: "));
+opA= a/b + 1;
+opB=(a-b) / (a+b);
+opC=(a-b/c)/(a+b/c);
+opD=a-b/(b+c);
+opE=(b+c)*a/(a+b);
+print("A operação A tem o resultado: ", opA);
+print("A operação B tem o resultado: ", opB);
+print("A operação C tem o resultado: ", opC);
+print("A operação D tem o resultado: ", opD);
+print("A operação E tem o resultado: ", opE);
